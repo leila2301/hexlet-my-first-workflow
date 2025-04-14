@@ -1,0 +1,1 @@
+name: show-directory\n\non:\n  push:\n\njobs:\n  build:\n    runs-on: ubuntu-latest\n\n    steps:\n      - uses: actions/checkout@v4\n      - run: make say-hello
